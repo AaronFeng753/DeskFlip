@@ -40,7 +40,7 @@ The only mouse gesture I ever use on a Windows PC is switching virtual desktops.
 
 # How to use
 
-- Rub the **left** screen edge vertically (down, then up) → switch to the desktop on the left. The **right** edge works the same way.
+- Move the mouse cursor up and down along the left/right edge of the screen (e.g., down-up-down, in no fixed order) → Switch to the left/right virtual desktop
 - Tip: fling the cursor into the edge so it stops against it, then slide vertically along the edge.
 - **Double-click** the tray icon to open Settings; **right-click** it to pause gestures or exit.
 - The settings window opens automatically on first run.
