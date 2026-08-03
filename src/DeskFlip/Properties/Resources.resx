@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>1.3</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_TrayTooltip_Running" xml:space="preserve"><value>DeskFlip — running</value></data>
+  <data name="App_TrayTooltip_Paused" xml:space="preserve"><value>DeskFlip — paused</value></data>
+  <data name="App_TrayTooltip_Fullscreen" xml:space="preserve"><value>DeskFlip — suppressed (fullscreen app)</value></data>
+  <data name="App_TrayTooltip_Blocked" xml:space="preserve"><value>DeskFlip — suppressed (blocked process)</value></data>
+  <data name="Menu_OpenSettings" xml:space="preserve"><value>Open settings</value></data>
+  <data name="Menu_Pause" xml:space="preserve"><value>Pause gestures</value></data>
+  <data name="Menu_OpenLog" xml:space="preserve"><value>Open log</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>Exit</value></data>
+  <data name="Settings_Title" xml:space="preserve"><value>DeskFlip settings</value></data>
+  <data name="Settings_GestureHelp" xml:space="preserve"><value>Rub the left or right screen edge vertically with the mouse to switch virtual desktops.</value></data>
+  <data name="Settings_TriggerWidth" xml:space="preserve"><value>Trigger zone width (px)</value></data>
+  <data name="Settings_Sensitivity" xml:space="preserve"><value>Sensitivity (px per stroke)</value></data>
+  <data name="Settings_RubCount" xml:space="preserve"><value>Rub count (strokes)</value></data>
+  <data name="Settings_RubCountOneWarning" xml:space="preserve"><value>Warning: a rub count of 1 is easy to trigger accidentally.</value></data>
+  <data name="Settings_HighDpiHint" xml:space="preserve"><value>All pixel values are logical pixels (resolution/scaling independent); the defaults feel the same on any display.</value></data>
+  <data name="Settings_DisableFullscreen" xml:space="preserve"><value>Disable gestures while a fullscreen app is active</value></data>
+  <data name="Settings_Blocklist" xml:space="preserve"><value>Force-disable process list (process name, no .exe)</value></data>
+  <data name="Settings_BlocklistAdd" xml:space="preserve"><value>Add</value></data>
+  <data name="Settings_BlocklistRemove" xml:space="preserve"><value>Remove</value></data>
+  <data name="Settings_AutoStart" xml:space="preserve"><value>Start with Windows</value></data>
+  <data name="Settings_Paused" xml:space="preserve"><value>Pause gestures</value></data>
+  <data name="Settings_Language" xml:space="preserve"><value>Language (takes effect after restart)</value></data>
+  <data name="Settings_LanguageSystem" xml:space="preserve"><value>Follow system</value></data>
+  <data name="Settings_LanguageRestartNotice" xml:space="preserve"><value>Language changes take effect after restarting the app.</value></data>
+  <data name="Settings_AutostartDenied" xml:space="preserve"><value>Autostart could not be changed (blocked by policy or antivirus).</value></data>
+  <data name="Settings_EnableLogging" xml:space="preserve"><value>Enable diagnostic log</value></data>
+  <data name="Settings_ZoneVisualization" xml:space="preserve"><value>Visualize edge zones</value></data>
+  <data name="Settings_OpenDataFolder" xml:space="preserve"><value>Open data folder</value></data>
+  <data name="Settings_MinimizeToTray" xml:space="preserve"><value>Minimize to tray</value></data>
+  <data name="Settings_AdvancedHeader" xml:space="preserve"><value>Advanced gesture tuning</value></data>
+  <data name="Settings_HoldZoneWidth" xml:space="preserve"><value>Hold zone width (px)</value></data>
+  <data name="Settings_HoldZoneGrace" xml:space="preserve"><value>Hold zone grace (ms)</value></data>
+  <data name="Settings_NoiseFloor" xml:space="preserve"><value>Reversal noise floor (px)</value></data>
+  <data name="Settings_FirstSegmentTimeout" xml:space="preserve"><value>First stroke timeout (ms)</value></data>
+  <data name="Settings_InterSegmentTimeout" xml:space="preserve"><value>Between-stroke timeout (ms)</value></data>
+  <data name="Settings_Cooldown" xml:space="preserve"><value>Cooldown after trigger (ms)</value></data>
+  <data name="Settings_JumpThreshold" xml:space="preserve"><value>Jump reset threshold (px)</value></data>
+  <data name="Settings_ResetDefaults" xml:space="preserve"><value>Restore defaults</value></data>
+  <data name="Settings_ResetConfirm" xml:space="preserve"><value>Reset all settings to their defaults?</value></data>
+  <data name="Settings_BasicHeader" xml:space="preserve"><value>Basic gesture tuning</value></data>
+  <data name="Settings_BehaviorHeader" xml:space="preserve"><value>Behavior</value></data>
+  <data name="Tip_TriggerWidth" xml:space="preserve"><value>Width of the edge trigger zone (logical px). The gesture starts only when the cursor is within this distance of the left/right screen edge.</value></data>
+  <data name="Tip_Sensitivity" xml:space="preserve"><value>Minimum unidirectional vertical displacement of one stroke (logical px). Larger = steadier, smaller = more sensitive.</value></data>
+  <data name="Tip_RubCount" xml:space="preserve"><value>Number of alternating vertical strokes needed to trigger (down+up = 2). A value of 1 is easy to trigger accidentally.</value></data>
+  <data name="Tip_HoldZoneWidth" xml:space="preserve"><value>Maximum horizontal drift allowed while rubbing (logical px). Leaving this zone for longer than the grace time abandons the gesture.</value></data>
+  <data name="Tip_HoldZoneGrace" xml:space="preserve"><value>How long (ms) the cursor may stay outside the hold zone before the gesture is abandoned. Returning within this grace period is harmless.</value></data>
+  <data name="Tip_NoiseFloor" xml:space="preserve"><value>Retreat distance (logical px) that counts as a real reversal. Smaller wiggles are treated as hand jitter and ignored.</value></data>
+  <data name="Tip_FirstSegmentTimeout" xml:space="preserve"><value>Time budget (ms) for the first stroke after entering the edge. Prevents an idle cursor parked at the edge from staying armed forever.</value></data>
+  <data name="Tip_InterSegmentTimeout" xml:space="preserve"><value>Maximum pause (ms) allowed between consecutive strokes.</value></data>
+  <data name="Tip_Cooldown" xml:space="preserve"><value>Cooldown (ms) after a trigger. Only the edge that just fired cools down; the other edge can trigger immediately.</value></data>
+  <data name="Tip_JumpThreshold" xml:space="preserve"><value>A single-sample displacement beyond this (logical px) is treated as a teleport (monitor hop, automation) and resets the gesture.</value></data>
+  <data name="Tip_DisableFullscreen" xml:space="preserve"><value>Automatically disable gestures while a fullscreen app (e.g. a game) is active on any monitor.</value></data>
+  <data name="Tip_Blocklist" xml:space="preserve"><value>Gestures are disabled while any listed process exists. Process name without .exe, case-insensitive (e.g. game).</value></data>
+  <data name="Tip_AutoStart" xml:space="preserve"><value>Start automatically at Windows logon (registry Run key; the path self-heals if you move the exe).</value></data>
+  <data name="Tip_EnableLogging" xml:space="preserve"><value>Write gesture-recognition and gate events to the diagnostic log (%AppData%\DeskFlip\deskflip.log, self-trimming at ~50 KB). Off by default; enable when troubleshooting.</value></data>
+  <data name="Tip_ZoneVisualization" xml:space="preserve"><value>While this window is open, draw semi-transparent overlays on the screen edges: blue = trigger zone, green = hold zone. Updates live as you change parameters.</value></data>
+  <data name="Tip_Paused" xml:space="preserve"><value>Pause all gesture recognition. Synced with the tray right-click menu.</value></data>
+  <data name="Tip_Language" xml:space="preserve"><value>UI language. Takes effect after restarting the app.</value></data>
+  <data name="Tip_Promo" xml:space="preserve"><value>Free AI Enhancer for Images, GIFs and Videos. Upscale &amp; Frame Interpolation.</value></data>
+  <data name="Tip_GitHub" xml:space="preserve"><value>The author's GitHub page — more freeware by Aaron Feng.</value></data>
+  <data name="Settings_About" xml:space="preserve"><value>About</value></data>
+  <data name="About_Title" xml:space="preserve"><value>About DeskFlip</value></data>
+  <data name="About_Disclaimer" xml:space="preserve"><value>Disclaimer:</value></data>
+  <data name="About_License" xml:space="preserve"><value>License:</value></data>
+  <data name="Common_Yes" xml:space="preserve"><value>Yes</value></data>
+  <data name="Common_No" xml:space="preserve"><value>No</value></data>
+  <data name="Common_OK" xml:space="preserve"><value>OK</value></data>
+  <data name="Promo_1" xml:space="preserve"><value>Also from the author: AI image &amp; video upscaling — free</value></data>
+  <data name="Promo_2" xml:space="preserve"><value>Make blurry photos sharp with AI</value></data>
+  <data name="Promo_3" xml:space="preserve"><value>Upscale anime images and videos — free tool</value></data>
+  <data name="Promo_4" xml:space="preserve"><value>AI super-resolution for photos, GIFs &amp; videos</value></data>
+  <data name="Promo_5" xml:space="preserve"><value>AI upscaling for anime and real photos alike</value></data>
+  <data name="Promo_6" xml:space="preserve"><value>Enlarge images without losing detail</value></data>
+  <data name="Promo_7" xml:space="preserve"><value>AI video frame interpolation + upscaling</value></data>
+  <data name="Promo_8" xml:space="preserve"><value>Sharpen old photos in one click</value></data>
+  <data name="Promo_9" xml:space="preserve"><value>Free AI upscaler for images &amp; videos</value></data>
+  <data name="Promo_10" xml:space="preserve"><value>Love crisp pixels? Try my AI upscaler</value></data>
+  <data name="Promo_11" xml:space="preserve"><value>Batch-upscale images with AI — free</value></data>
+  <data name="Promo_12" xml:space="preserve"><value>One-click 4K: AI video upscaling</value></data>
+</root>
