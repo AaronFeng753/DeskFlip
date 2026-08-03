@@ -23,6 +23,8 @@ Supported Languages: English, 简体中文.
 
 ### A tiny tray utility for switching Windows 11 virtual desktops with a mouse gesture: rub the left or right screen edge vertically (slide the cursor up and down along the edge) to flip to the previous/next desktop.
 
+![mainwindow](UI.png)
+
 ### ✨Key features:
 - 🖱No buttons, no hotkeys: just rub the screen edge with your mouse.
 - 🎯Adjustable sensitivity: trigger-zone width, stroke length, rub count and more.
